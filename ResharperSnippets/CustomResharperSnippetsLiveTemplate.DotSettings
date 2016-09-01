@@ -13,6 +13,19 @@
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B0A5371095DE82428389167C5C5C7F20/Field/=long/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B0A5371095DE82428389167C5C5C7F20/Field/=name/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B0A5371095DE82428389167C5C5C7F20/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Shortcut/@EntryValue">/t</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Description/@EntryValue">TODO comment</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Text/@EntryValue">//TODO: $end$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Categories/=CustomTemplates/@EntryIndexedValue">CustomTemplates</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Field/=end/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2049F0C40D481E4C9761EC3D5CA54266/Field/=end/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6327645ECB3BEB40B836399EF9D789B0/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6327645ECB3BEB40B836399EF9D789B0/Shortcut/@EntryValue">lpgs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6327645ECB3BEB40B836399EF9D789B0/Text/@EntryValue">Public $long$ $name$ { get; set; }</s:String>
