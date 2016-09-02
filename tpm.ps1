@@ -1,0 +1,1 @@
+Get-WmiObject -class Win32_Tpm -namespace root\CIMV2\Security\MicrosoftTpm -computername $Computer
