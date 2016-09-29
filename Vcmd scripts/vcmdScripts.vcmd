@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SerializableSnippets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <commands>
+    <Snippet>
+      <id>1</id>
+      <name>CodeLens</name>
+      <code>Imports EnvDTE
+Imports EnvDTE80
+Imports Microsoft.VisualBasic
+
+Public Class C
+	Implements VisualCommanderExt.ICommand
+
+	Sub Run(DTE As EnvDTE80.DTE2, package As Microsoft.VisualStudio.Shell.Package) Implements VisualCommanderExt.ICommand.Run
+		DTE.ExecuteCommand("EditorContextMenus.CodeLens.CodeLensOptions")
+            	System.Threading.Thread.Sleep(300)
+            	System.Windows.Forms.SendKeys.Send("{TAB} {ENTER}")
+	End Sub
+
+End Class
+</code>
+      <referencedAssemblies />
+      <type>Command</type>
+      <lang>VB</lang>
+      <langVersion>v4.0</langVersion>
+      <enabled>true</enabled>
+      <includeDebugInformation>false</includeDebugInformation>
+    </Snippet>
+    <Snippet>
+      <id>2</id>
+      <name>Edit.GoToDefinition</name>
+      <code>using EnvDTE;
+using EnvDTE80;
+
+public class C : VisualCommanderExt.ICommand
+{
+	public void Run(EnvDTE80.DTE2 DTE, Microsoft.VisualStudio.Shell.Package package) 
+	{
+		DTE.ExecuteCommand("Edit.GoToDefinition");
+	}
+}
+</code>
+      <referencedAssemblies />
+      <type>Command</type>
+      <lang>CS</lang>
+      <langVersion>v4.0</langVersion>
+      <enabled>true</enabled>
+      <includeDebugInformation>false</includeDebugInformation>
+    </Snippet>
+    <Snippet>
+      <id>3</id>
+      <name>SaveAndClose</name>
+      <code>Imports EnvDTE
+Imports EnvDTE80
+Imports Microsoft.VisualBasic
+
+Public Class C
+	Implements VisualCommanderExt.ICommand
+
+	Sub Run(DTE As EnvDTE80.DTE2, package As Microsoft.VisualStudio.Shell.Package) Implements VisualCommanderExt.ICommand.Run
+		DTE.ExecuteCommand("File.SaveSelectedItems")
+		DTE.ExecuteCommand("File.Close")
+	End Sub
+
+End Class
+</code>
+      <referencedAssemblies />
+      <type>Command</type>
+      <lang>VB</lang>
+      <langVersion>v4.0</langVersion>
+      <enabled>true</enabled>
+      <includeDebugInformation>false</includeDebugInformation>
+    </Snippet>
+    <Snippet>
+      <id>4</id>
+      <name>SolutionExplorer</name>
+      <code>using EnvDTE;
+using EnvDTE80;
+
+public class C : VisualCommanderExt.ICommand
+{
+	public void Run(EnvDTE80.DTE2 DTE, Microsoft.VisualStudio.Shell.Package package) 
+	{
+		DTE.ExecuteCommand("View.SolutionExplorer");
+	}
+}
+</code>
+      <referencedAssemblies />
+      <type>Command</type>
+      <lang>CS</lang>
+      <langVersion>v4.0</langVersion>
+      <enabled>true</enabled>
+      <includeDebugInformation>false</includeDebugInformation>
+    </Snippet>
+    <Snippet>
+      <id>5</id>
+      <name>ViewCode</name>
+      <code>using EnvDTE;
+using EnvDTE80;
+
+public class C : VisualCommanderExt.ICommand
+{
+	public void Run(EnvDTE80.DTE2 DTE, Microsoft.VisualStudio.Shell.Package package) 
+	{
+		DTE.ExecuteCommand("View.ViewCode");
+	}
+}
+</code>
+      <referencedAssemblies />
+      <type>Command</type>
+      <lang>CS</lang>
+      <langVersion>v4.0</langVersion>
+      <enabled>true</enabled>
+      <includeDebugInformation>false</includeDebugInformation>
+    </Snippet>
+  </commands>
+  <extensions />
+  <commonCode />
+</SerializableSnippets>
