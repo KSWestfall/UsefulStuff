@@ -19,12 +19,9 @@ function Set-Startmode
     )
     Process
     {
-        Write-Host "Setting the following services to $Name : "
-
         if ($ServiceName -ne $null) { Get-WmiObject win32_Service | where {$_.StartName -like $UserServicesToStop} | select Name }
         else { Get-WmiObject win32_Service | where {$_.Name -like $ServiceName} | select Name}
 
-        Write-Host "Would you Like to continue? (y/n)"
         $UserInput = Read-Host
         if ($UserInput -icontains "n") {
             break
