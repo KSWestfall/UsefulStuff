@@ -33,6 +33,8 @@ for Get-PCUptime.
 Credit given where credit due:
 Douglas DeCamp produced the get-PendingReboots script that i incorperated into this script.
 for more info on the script please see the Get-PendingReboot function.
+.REMARKS
+
 #>
 
 # Ping Multiple Systems Fast. specify computer using .txt file with each computer on
@@ -52,6 +54,7 @@ function pmsf {
     [Parameter(Mandatory=$false)]
         [switch]$CurrentlyOn=$False
     )
+
     # switch statement used to determine what to do depending on the output desired.
     switch -wildcard ($ComputersToPing) {
         "*.txt" {$ComputerName = Get-Content $ComputersToPing} # parse text file
